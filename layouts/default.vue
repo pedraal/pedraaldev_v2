@@ -1,12 +1,6 @@
 <template>
-  <v-app dark>
-    <v-app-bar
-      fixed
-      app
-    >
-      Pedraal.dev
-    </v-app-bar>
-    <v-main>
+  <v-app>
+    <v-main class="mt-4">
       <v-container>
         <nuxt />
       </v-container>
@@ -14,6 +8,7 @@
     <v-footer
       absolute
       app
+      class="d-none d-md-block"
     >
       <span>PedraalDev &copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
@@ -22,28 +17,6 @@
 
 <script>
 export default {
-  data () {
-    return {
-      clipped: false,
-      drawer: false,
-      fixed: false,
-      items: [
-        {
-          icon: 'mdi-apps',
-          title: 'Welcome',
-          to: '/'
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
-        }
-      ],
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'Vuetify.js'
-    }
-  }
+
 }
 </script>
