@@ -40,12 +40,4 @@ export default {
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
 }
-
-.app-timeline{
-  padding-top: 50px;
-}
-/*
-.nuxt-content {
-  text-align: justify;
-} */
 </style>

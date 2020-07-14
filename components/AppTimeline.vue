@@ -1,5 +1,5 @@
 <template>
-  <v-timeline class="mr-6 mx-md-auto" align-top :dense="$vuetify.breakpoint.smAndDown">
+  <v-timeline class="mr-6 pt-10 mx-md-auto" align-top :dense="$vuetify.breakpoint.smAndDown">
     <v-timeline-item
       v-for="item in resume"
       :key="item.slug"
